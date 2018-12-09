@@ -56,7 +56,7 @@ const nav = [
         ]
     },
     {
-        text: "about",
+        text: "About",
         link: "https://music.163.com"
     }
 
@@ -76,12 +76,12 @@ var config = {
     // 网站标题
     title: '德先生的乐',
     head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }]
+        ['link', { rel: 'icon', href: 'favicon.ico' }]
     ],
 
 
     // <meta name="description" content="...">
-    description: '种一棵树最好的时间是十年前，其次是现在',
+    description: '个人博客，记录生活.',
 
     markdown: {
 
@@ -93,7 +93,7 @@ var config = {
         repo: '7wong/7wong',
 
         // github 地址的链接名
-        repoLabel: '代码',
+        repoLabel: 'GitHub',
 
         // 当前 markdown 的 github 代码链接
         //editLinks: true,

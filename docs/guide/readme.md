@@ -1,14 +1,6 @@
----
-home: true
-heroImage: /logo.jpg
-actionText: DO IT !
-actionLink: /guide/
-features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2015-2018 Mr.De
----
+# 诞生cn
+
+## 公元纪年--1988年1月30号，在家人的喜悦和期待中来到了地球^_^，开启了我的人生，书写着我的故事……小眼睛、小嘴巴，还有那被上帝珍藏了一半的”半、截、眉“O(∩_∩)O~
+
+## 童年记忆
+<Valine></Valine>

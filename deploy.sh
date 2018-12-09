@@ -10,13 +10,13 @@ npm run build
 cd docs/.vuepress/dist
 
 # 如果你是要部署到自定义域名
-# echo 'www.mrde.cc' > CNAME
+# echo 'www.example.com' > CNAME
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # 如果你想要部署到 https://<USERNAME>.github.io
-git push -f https://github.com/7wong/7wong.github.io.git master:master
+git push -f https://github.com/7wong/7wong.github.io.git  master:master
 
 cd -
