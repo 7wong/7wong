@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /logo.jpg
-actionText: DO IT !
+actionText: DO IT ! ci
 actionLink: /guide/
 features:
 - title: 简洁至上

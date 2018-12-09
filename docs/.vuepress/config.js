@@ -66,6 +66,8 @@ const nav = [
 ]
 
 
+
+
 var config = {
 
     // 静态网站部署的目录
@@ -74,10 +76,9 @@ var config = {
     // 网站标题
     title: '德先生的乐',
     head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }]
-        ['link', {rel: 'manifest', href: '/logo.jpg'}],
-        ['link', {rel: 'apple-touch-icon', href: '/logo.jpg'}],
+        ['link', { rel: 'icon', href: 'favicon.ico' }]
     ],
+
 
     // <meta name="description" content="...">
     description: '个人博客，记录生活.',
