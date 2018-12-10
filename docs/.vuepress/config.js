@@ -88,12 +88,12 @@ var config = {
     // 网站标题
     title: '德先生的乐',
     head: [
-        ['link', { rel: 'icon', href: 'favicon.ico' }]
+        ['link', { rel: '/images/icon', href: '/images/favicon.ico' }]
     ],
 
 
     // <meta name="description" content="...">
-    description: '无可寄托者,用心躁也.',
+    description: '无可寄托者, 用心躁也.',
 
     markdown: {
 
