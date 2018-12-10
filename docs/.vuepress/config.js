@@ -33,13 +33,13 @@ const sidebar = {
         {
             title: 'About',
             children: [
-                'About/readme'
+                'About/readmea'
             ]
         },
         {
             title: 'Other',
             children: [
-                'Other/readme'
+                'Other/readmeo'
             ]
         }
     ]
@@ -68,7 +68,7 @@ const nav = [
         text: "About",
         items: [
             { text: 'About',link: '/About/' + sidebar['/About/'][0]['children'][0] },
-            { text: 'Other', link: '/About/' + sidebar['/About/'][0]['children'][0] },
+            { text: 'Other', link: '/About/' + sidebar['/About/'][1]['children'][0] },
         ]
     }
 
