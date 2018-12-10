@@ -29,17 +29,25 @@ const sidebar = {
        }
    ],
 
-    '/About/': [{
+    '/About/': [
+        {
             title: 'About',
             children: [
                 'About/readme'
             ]
         },
+        {
+            title: 'Other',
+            children: [
+                'Other/readme'
+            ]
+        }
     ]
 
 
-
 }
+
+
 
 const nav = [
     {
@@ -51,22 +59,16 @@ const nav = [
     },
     {
         text: 'Life',
-        items: [{
-                text: 'Movies',
-                link: '/Life/' + sidebar['/Life/'][0]['children'][0]
-            },
-            {
-                text: 'Music',
-                link: '/Life/' + sidebar['/Life/'][1]['children'][0]
-            }
+        items: [
+            { text: 'Movies', link: '/Life/' + sidebar['/Life/'][0]['children'][0] },
+            { text: 'Music', link: '/Life/' + sidebar['/Life/'][1]['children'][0] }
         ]
     },
     {
         text: "About",
-        items: [{
-                text: 'About',
-                link: '/About/' + sidebar['/About/'][0]['children'][0]
-            },
+        items: [
+            { text: 'About',link: '/About/' + sidebar['/About/'][0]['children'][0] },
+            { text: 'Other', link: '/About/' + sidebar['/About/'][0]['children'][0] },
         ]
     }
 
