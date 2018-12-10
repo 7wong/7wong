@@ -150,7 +150,7 @@ const config = {
     repo: '7wong/7wong',
 
     // github 地址的链接名
-    repoLabel: 'GitGub',
+    repoLabel: 'GitHub',
 
     // 配置导航栏
     nav,

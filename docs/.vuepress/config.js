@@ -37,7 +37,7 @@ const sidebar = {
 
 const nav = [
     {
-        text: '前端栈',
+        text: 'Works',
         items: [
             { text: 'Vue', link: '/WEB/' + sidebar['/WEB/'][0]['children'][0] },
             { text: 'React', link: '/WEB/' + sidebar['/WEB/'][1]['children'][0] }
