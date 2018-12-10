@@ -27,9 +27,22 @@ const sidebar = {
                'Music/shop'
            ]
        }
-   ]
+   ],
 
+    '/About/': [{
+            title: 'About',
+            children: [
+                'About/readme'
+            ]
+        },
 
+        {
+            title: 'Music',
+            children: [
+                'Music/shop'
+            ]
+        }
+    ]
 
 
 
@@ -57,7 +70,11 @@ const nav = [
     },
     {
         text: "About",
-        link: "https://music.163.com"
+        items: [{
+                text: 'About',
+                link: '/About/' + sidebar['/about/'][0]['children'][0]
+            },
+        ]
     }
 
 
@@ -81,7 +98,7 @@ var config = {
 
 
     // <meta name="description" content="...">
-    description: '个人博客，记录生活.',
+    description: '无可寄托者,用心躁也.',
 
     markdown: {
 
