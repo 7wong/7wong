@@ -40,7 +40,6 @@ echo '# Hello VuePress' > docs/README.md
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "npm run build && gh-pages -d docs/.vuepress/dist"
   }
 }
 ```
@@ -99,8 +98,8 @@ module.exports = config
 
 创建 **docs/.vuepress/public** 用于存放公共文件
 
-我在 **public/** , 存在了 **favicon.ico** 图标， 以及 **logo.jpg** 首页的头像图片
-我在**public/** 下创建了**images** ，将**icon**和**logo存放在此。
+ **public/** , 存在了 **favicon.ico** 图标， 以及 **logo.jpg** 首页的头像图片
+我在**public/** 下创建了**images** ，将**icon**和**logo**存放在此。
 
 ### 简单的首页编写
 
