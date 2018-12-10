@@ -93,7 +93,7 @@ var config = {
 
 
     // <meta name="description" content="...">
-    description: '无可寄托者, 用心躁也.',
+    description: '无可寄托者，用心躁也.',
 
     markdown: {
 
