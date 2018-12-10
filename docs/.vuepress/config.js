@@ -35,13 +35,6 @@ const sidebar = {
                 'About/readme'
             ]
         },
-
-        {
-            title: 'Music',
-            children: [
-                'Music/shop'
-            ]
-        }
     ]
 
 
@@ -72,7 +65,7 @@ const nav = [
         text: "About",
         items: [{
                 text: 'About',
-                link: '/About/' + sidebar['/about/'][0]['children'][0]
+                link: '/About/' + sidebar['/About/'][0]['children'][0]
             },
         ]
     }
