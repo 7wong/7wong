@@ -88,7 +88,7 @@ var config = {
     // 网站标题
     title: '德先生的乐',
     head: [
-        ['link', { rel: '/images/icon', href: '/images/favicon.ico' }]
+        ['link', { rel: 'icon', href: '/images/favicon.ico' }]
     ],
 
 
